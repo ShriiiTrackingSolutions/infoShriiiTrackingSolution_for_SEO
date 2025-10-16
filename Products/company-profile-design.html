@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../image/cropped-favicon-192x192.png"
+    />
+    <title>
+        Company Profile Design  &#8211; Shriii Tracking Solutions
+    </title>
+    <script
+      src="https://kit.fontawesome.com/52ca9e0df4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/github.min.css"
+    />
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@1.2.0/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header id="main-header">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../image/ShriiTrackingSolutionLogo.png" alt="Logo"
+          /></a>
+
+          <div class="extraItems">
+            <div class="Makeacall d-md-flex d-none d-lg-none">
+              <span class="material-symbols-outlined"> perm_phone_msg </span>
+              <div>
+                <h6>Make A Call</h6>
+                <p>+91 63547 10794</p>
+              </div>
+              <a href="tel:+91 6354710794"></a>
+            </div>
+
+            <button
+              type="button"
+              class="btn d-md-block d-lg-none"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="d-flex" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Type keyword & Hit Enter"
+                        aria-label="Search"
+                      />
+                      <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown dropdown-mega position-static">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                >
+                  Services
+                </a>
+                <div class="dropdown-menu megaDropdown shadow">
+                  <div class="mega-content p-md-2">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-4 col-sm-6 p-2">
+                          <h5 class="megaHeding" onclick="show(1, this);">
+                            Web development
+                          </h5>
+                          <div class="list-group group1 d-none d-lg-block">
+                            <a
+                              class="list-group-item"
+                              href="custom-web-development.html"
+                              >Custom Web Development</a
+                            >
+                            <a class="list-group-item" href="e-commerce-website-development.html"
+                              >E-commerce Website Development</a
+                            >
+                            
+                            <a class="list-group-item" href="off-page-seo-optimization.html"
+                              >Off-Page SEO Optimization</a
+                            >
+                            <a class="list-group-item" href="on-page-seo-optimization.html"
+                              >On-Page SEO Optimization</a
+                            >
+                            
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 p-2">
+                          <h5 class="megaHeding" onclick="show(2, this);">
+                            Digital Marketing
+                          </h5>
+                          <div class="list-group group2 d-none d-lg-block">
+                            <a class="list-group-item" href="social-media-account-management.html"
+                              >Social Media Account Management</a
+                            >
+                            <a class="list-group-item" href="social-media-marketing.html"
+                              >Social Media Marketing</a
+                            >
+                            <a class="list-group-item" href="google-ads-management.html"
+                              >Google Ads Services</a
+                            >
+                            <a class="list-group-item" href="linkedIn-management-and-advertising.html"
+                              >LinkedIn Management & Advertising</a
+                            >
+                            <a class="list-group-item" href="email-marketing-campaigns.html"
+                              >Email Marketing</a
+                            >
+                            <a class="list-group-item" href="google-my-business-optimization.html"
+                              >GMB Management</a
+                            >
+                            <a class="list-group-item" href="content-marketing.html"
+                              >Content Marketing Strategy</a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 p-2">
+                          <h5 class="megaHeding" onclick="show(3, this);">
+                            GRAPHIC DESIGN SERVICES
+                          </h5>
+                          <div class="list-group group3 d-none d-lg-block">
+                            <a class="list-group-item" href="logo-design.html">Logo Design</a>
+                            <a class="list-group-item" href="flyers-and-brochures.html"
+                              >Flyers & Brochures</a
+                            >
+                            <a class="list-group-item" href="business-cards.html"
+                              >Business Cards</a
+                            >
+                            <a class="list-group-item" href="banner-design.html">Banners</a>
+                            <a class="list-group-item" href="catalog-design.html"
+                              >Catalog Design</a
+                            >
+                            <a class="list-group-item" href="company-profile-design.html"
+                              >Company Profile Design</a
+                            >
+                            <a class="list-group-item" href="product-packaging-design.html"
+                              >Product Packaging Design</a
+                            >
+                            <a class="list-group-item" href="branding.html"
+                              >Branding</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../careers.html">Careers</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact Us</a>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  data-bs-whatever="@mdo"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="d-flex" role="search">
+                          <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Type keyword & Hit Enter"
+                            aria-label="Search"
+                          />
+                          <button class="btn" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="headerRight d-flex">
+              <div class="Makeacall d-flex">
+                <span class="material-symbols-outlined"> perm_phone_msg </span>
+                <div>
+                  <h6>Make A Call</h6>
+                  <p>+91 63547 10794</p>
+                </div>
+                <a href="tel:+91 6354710794"></a>
+              </div>
+              <a class="btnMedium "  
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight" href="javascript:void(0)"
+              ><span
+                >Take Action
+                <i class="fa-solid fa-arrow-right-long"></i></span
+            ></a>
+
+              <button
+                class="btnOffcanvas"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <h4 class="therdH">Who we Are</h4>
+          <p>
+            We are a team of professionals working in this industry for 15
+            years. We have so several satisfied clients from all over India.
+          </p>
+          <div class="Call_to_Action">
+            <div class="Makeacall d-flex">
+              <span class="material-symbols-outlined"> distance </span>
+              <div>
+                <h6>Location</h6>
+                <p>
+                  TF-A1-22, Akshar Pavilion Mall, Near Priya Cinema,Vasna Bhyali Main Road, Vadodara,391410
+                </p>
+              </div>
+            </div>
+            <div class="Makeacall d-flex">
+              <span class="material-symbols-outlined"> mail </span>
+              <div>
+                <h6>Email Address</h6>
+                <p>contact@shriiitrackingsolutions.com</p>
+              </div>
+              <a href="mailto:contact@shriiitrackingsolutions.com"></a>
+            </div>
+            <div class="Makeacall d-flex">
+              <span class="material-symbols-outlined"> perm_phone_msg </span>
+              <div>
+                <h6>Make A Call</h6>
+                <p>+91 63547 10794</p>
+              </div>
+              <a href="tel:+91 6354710794"></a>
+            </div>
+            <div class="Makeacall d-flex">
+                <span class="material-symbols-outlined"> perm_phone_msg </span>
+                <div>
+                  <h6>Make A Call</h6>
+                  <p>+91 79909 09711</p>
+                </div>
+                <a href="tel:+91 7990909711"></a>
+              </div>
+          </div>
+
+          <a class="btnMedium" href="../contact.html#getInTouchID"><span>Get A Quote
+            <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></span>
+          </a>
+
+         
+        </div>
+      </div>
+    </header>
+    <!-- header start -->
+
+    <section id="headBelowContent" class="newBanner defaultPadding">
+      <div class="container">
+        <h1 class="display-3">
+          <span class="split-text">Company Profile Design</span>
+        </h1>
+        <p class="Categories therdH"><b>Category: </b> GRAPHIC DESIGN SERVICES</p>
+      </div>
+    </section>
+
+    <!-- product gallery section start  -->
+    <section class="productGallery defaultPadding">
+      <div class="container">
+        <div class="row gx-lg-5 gx-md-4">
+          <div class="col-xl-4 col-lg-5">
+            <div class="thumbnail_slider">
+              <!-- Primary Slider Start-->
+              <div id="primary_slider">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img src="../image/companyProfi.png" />
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <!-- Primary Slider End-->
+              <!-- Thumbnal Slider Start-->
+              <div id="thumbnail_slider">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img src="../image/companyProfi.png" />
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+              <!-- Thumbnal Slider End-->
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-7 servicesHighlights">
+            <h2 class="secH">Company Profile Design</h2>
+            <ul>
+                <li><strong>Professional Branding: </strong>Showcase your company's identity with a polished and visually appealing profile.</li>         
+                <li><strong>Clear Communication: </strong>Effectively communicate your company's mission, vision, values, and offerings.</li>         
+                <li><strong>Custom Design: </strong>Tailor-made profiles that align with your brand's aesthetics and industry standards.</li>         
+                <li><strong>Credibility Boost: </strong>Establish trust and credibility with a well-crafted, professional company profile.</li>         
+                <li><strong>Versatility: </strong>Use your profile across multiple platforms—digital, print, and presentations.</li>         
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product gallery section end -->
+
+    <!-- services discription section start  -->
+    <section class="servicesDiscription defaultPadding">
+      <div class="container">
+        <h2 class="therdH">Description</h2>
+        <p class="paragrey">Stand out in today's competitive market with Shrii Tracking Solutions' <strong>Company Profile Design services. </strong> A professional and engaging company profile is essential to leave a lasting impression on potential clients, partners, and stakeholders. Our expertly crafted designs combine creativity and strategy to present your business in the best light.</p>
+    
+        <div class="pointsSection">
+          
+          <h2 class="therdH">Why Choose Our Company Profile Design Services?</h2>
+
+          <ol class="olStyle">
+            <li><span style="color: #000000;"><strong>Customized Solutions: </strong></span>
+            <ul>
+            <li><span style="color: #000000;">Every company profile is tailored to reflect your brand’s unique identity and objectives.</span></li>
+            </ul>
+            </li>  
+            <li><span style="color: #000000;"><strong>Creative Excellence: </strong></span>
+            <ul>
+            <li><span style="color: #000000;">Our expert designers create visually stunning layouts that captivate your audience.</span></li>
+            </ul>
+            </li>  
+            <li><span style="color: #000000;"><strong>Comprehensive Content: </strong></span>
+            <ul>
+            <li><span style="color: #000000;">We include all essential details—mission, vision, services, achievements, and more—in an engaging format.</span></li>
+            </ul>
+            </li>  
+            <li><span style="color: #000000;"><strong>Industry Expertise: </strong></span>
+            <ul>
+            <li><span style="color: #000000;">Profiles designed with insights into your industry’s trends and audience preferences.</span></li>
+            </ul>
+            </li>  
+            <li><span style="color: #000000;"><strong>Versatile Formats: </strong></span>
+            <ul>
+            <li><span style="color: #000000;">Delivered in multiple formats (PDF, PPT, print-ready) to meet your specific needs.</span></li>
+            </ul>
+            </li>  
+           
+
+            </ol>
+
+            <h2 class="therdH">Our Company Profile Design Process</h2>
+            <ol class="olStyle">
+                <li><span style="color: #000000;"><strong>Initial Consultation: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Understand your business, goals, and branding guidelines to craft a tailored design plan.</span></li>
+                </ul>
+                </li>       
+                <li><span style="color: #000000;"><strong>Content Collection: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Collaborate to gather all necessary content, including company history, services, milestones, and client testimonials.</span></li>
+                </ul>
+                </li>       
+                <li><span style="color: #000000;"><strong>Concept Development: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Develop a unique layout and design concept that reflects your brand's personality.</span></li>
+                </ul>
+                </li>       
+                <li><span style="color: #000000;"><strong>Design and Creation: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Combine compelling visuals, engaging content, and professional layouts to create an impactful profile.</span></li>
+                </ul>
+                </li>       
+                <li><span style="color: #000000;"><strong>Review and Feedback: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Share the draft design with you for feedback and incorporate revisions for perfection.</span></li>
+                </ul>
+                </li>       
+                <li><span style="color: #000000;"><strong>Final Delivery: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Provide the finalized company profile in your preferred format, ready for use in presentations, client meetings, and online promotions.</span></li>
+                </ul>
+                </li>       
+               
+                
+                </ol>
+
+          <h2 class="therdH">Key Features of Our Company Profile Design Services</h2>
+         
+          <ul>
+              <li><span style="color: #000000;"><strong>Tailored Designs: </strong></span>
+              <ul>
+              <li><span style="color: #000000;">Unique and custom-made profiles that represent your brand authentically.</span></li>
+              </ul>
+              </li>   
+              <li><span style="color: #000000;"><strong>High-Quality Visuals: </strong></span>
+              <ul>
+              <li><span style="color: #000000;">Professionally designed layouts with eye-catching graphics and images.</span></li>
+              </ul>
+              </li>   
+              <li><span style="color: #000000;"><strong>Content Structuring: </strong></span>
+              <ul>
+              <li><span style="color: #000000;">Organized and concise content that communicates your value effectively.</span></li>
+              </ul>
+              </li>   
+              <li><span style="color: #000000;"><strong>Cross-Platform Compatibility: </strong></span>
+              <ul>
+              <li><span style="color: #000000;">Profiles optimized for use across digital platforms and print media.</span></li>
+              </ul>
+              </li>   
+              <li><span style="color: #000000;"><strong>Quick Turnaround: </strong></span>
+              <ul>
+              <li><span style="color: #000000;">Efficient design process to deliver your profile within tight deadlines.</span></li>
+              </ul>
+              </li>   
+              
+              
+          </ul>
+
+            <h2 class="therdH">Benefits of a Professional Company Profile</h2>
+            <ul>
+                <li><span style="color: #000000;"><strong>Strong First Impression: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Present your business in a professional and appealing way to potential clients and partners.</span></li>
+                </ul>
+                </li>       
+                   
+                <li><span style="color: #000000;"><strong>Effective Storytelling: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Share your brand story in a way that resonates with your target audience.</span></li>
+                </ul>
+                </li>       
+                   
+                <li><span style="color: #000000;"><strong>Increased Credibility: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Build trust with a polished, high-quality profile that reflects your professionalism.</span></li>
+                </ul>
+                </li>       
+                   
+                <li><span style="color: #000000;"><strong>Enhanced Marketing Efforts: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Use your company profile as a powerful marketing tool in presentations, proposals, and online platforms.</span></li>
+                </ul>
+                </li>       
+                   
+                <li><span style="color: #000000;"><strong>Better Engagement: </strong></span>
+                <ul>
+                <li><span style="color: #000000;">Keep your audience engaged with visually appealing and informative content.</span></li>
+                </ul>
+                </li>       
+                   
+                
+            </ul>
+        </div>
+        <h2 class="therdH">Get Started Today</h2>
+        <p class="paragrey">
+            Elevate your business image with Shrii Tracking Solutions’ Company Profile Design services. Contact us today to create a customized, professional profile that captures your brand’s essence and drives impactful connections!
+        </p>
+
+     
+      </div>
+    </section>
+    <!-- services discription section end -->
+
+  
+    <!-- whatsapp FAB icon -->
+    <div class="fab-container">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=6354710794"><span class="sr-only">Whatsapp</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
+          <defs>
+            <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
+              <stop offset="0%" stop-color="#1faf38" />
+              <stop offset="100%" stop-color="#60d669" />
+            </linearGradient>
+            <linearGradient id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%">
+              <stop offset="0%" stop-color="#f9f9f9" />
+              <stop offset="100%" stop-color="#fff" />
+            </linearGradient>
+          </defs>
+          <path fill="url(#logosWhatsappIcon0)" d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a123 123 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004" />
+          <path fill="url(#logosWhatsappIcon1)" d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416m40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513z" />
+          <path fill="#fff" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561s11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716s-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64" />
+        </svg> </a>
+  </div>
+
+    <!-- Call FAB icon -->
+    <div class="Call-fab-container">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="tel:+91 6354710794"><span class="sr-only">Call</span>
+        <img style="height: 60px; width: 60px;" src="../image/phone-call.png" alt="phone icon">
+      </a>
+  </div>
+
+
+
+    <!-- footer section start  -->
+    <footer class="defaultPadding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <a class="navbar-brand" href="../index.html"
+              ><img
+                src="../image/ShriiTrackingSolutionLogoWhite.png"
+                alt="asha industries logo"
+            /></a>
+            <p>
+              We are a team of professionals working in this industry for 15
+              years. We have so several satisfied clients from all over India.
+            </p>
+            <div class="fIcons">
+              <a
+                target="_blank"
+                class="fa-brands fa-facebook-f"
+                href="https://www.facebook.com/"
+                aria-hidden="true"
+              ></a>
+              <a
+                target="_blank"
+                class="fa-brands fa-x-twitter"
+                href="https://x.com/?lang=en"
+                aria-hidden="true"
+              ></a>
+              <a
+                target="_blank"
+                class="fa-brands fa-instagram"
+                href="https://www.instagram.com/"
+                aria-hidden="true"
+              ></a>
+              <a
+                target="_blank"
+                class="fa-brands fa-linkedin-in"
+                href="https://www.linkedin.com/authwall?trk=bf&amp;trkInfo=AQH3HyOeX_gCXgAAAZJbhlgANMabyJfAewxAY9qdxU6QsJHvozrFZ51a8_tYQyBRvuwnA3uVR8G7943UdA0TlnFJzLvY9FQFuffSjfYFTIwQ_DjL6JSlBWNnWNmu50MKpPpSrNY=&amp;original_referer=&amp;sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvimal-gupta-2458b0260"
+                aria-hidden="true"
+              ></a>
+            </div>
+          </div>
+                    <!-- Add this as a new column in your footer -->
+<div class="col-lg-3 col-md-6 footerLinks">
+    <div id="footer-recent-posts"></div>
+
+</div>
+          <div class="col-lg-4 col-md-6 footerLinks">
+            <h2 class="fourthH">Locate Us</h2>
+            <ul>
+              <li>
+                <a target="_blank" href="tel:+91 6354710794"
+                  ><i class="fa-solid fa-phone"></i> +91 63547 10794</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="tel:+91 7990909711"
+                  ><i class="fa-solid fa-phone"></i> +91 79909 09711</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="mailto:contact@shriiitrackingsolutions.com"
+                  ><i class="fa-solid fa-envelope"></i>
+                  contact@shriiitrackingsolutions.com</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://maps.app.goo.gl/EMtQmUV8unVQYXWE8"
+                  ><address>
+                    <i class="fa-solid fa-location-dot"></i>TF-A1-22, Akshar Pavilion Mall, Near Priya Cinema,Vasna Bhyali Main Road, Vadodara,391410
+                  </address>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="copyrightSection">
+      <div class="container">
+        <p>Copyright @2024 All Rights Reserved By Shriii Tracking Solution.</p>
+      </div>
+    </section>
+
+    <!-- footer section end  -->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@1.2.0/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tomik23/circular-progress-bar@latest/docs/circularProgressBar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script src="../js/script.js"></script>
+
+    <script>
+      // Header Script 
+        // Debounce function to limit how often the event handler executes
+        function debounce(func, delay) {
+          let timeout;
+          return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+          };
+        }
+      
+        // Header scroll handler
+        function handleScroll() {
+          const header = document.getElementById("main-header");
+          const headerOffset = header.offsetTop;
+          const headerHeight = header.offsetHeight;
+          const belowContent = document.getElementById("headBelowContent");
+          const belowContentOffset = belowContent.offsetTop;
+          const belowContentHeight = belowContent.offsetHeight;
+      
+          if (window.pageYOffset > headerOffset + headerHeight + 5) {
+            header.classList.add("sticky-header", "visible");
+            header.classList.remove("headerAnimate");
+      
+            applyNavbarStyles();
+          } else {
+            if (
+              window.pageYOffset <
+              belowContentOffset + belowContentHeight + 4
+            ) {
+              header.classList.remove("sticky-header", "visible");
+              header.classList.add("headerAnimate");
+            }
+          }
+        }
+      
+        // Function to handle navbar styles based on layout
+        function applyNavbarStyles() {
+          const navbar = document.getElementById("navbarSupportedContent");
+      
+          if (window.matchMedia("(max-device-width: 991.98px)").matches) {
+            navbar.setAttribute(
+              "style",
+              "max-height: calc(100vh - 112px); overflow-y: auto;"
+            );
+          } else if (window.matchMedia("(max-device-width: 1199.98px)").matches) {
+            navbar.setAttribute("style", "");
+          } else {
+            navbar.setAttribute("style", "");
+          }
+        }
+      
+        // Attach debounced scroll and resize events
+        const debouncedHandleScroll = debounce(handleScroll, 0);
+        const debouncedApplyNavbarStyles = debounce(applyNavbarStyles, 0);
+      
+        window.addEventListener("scroll", debouncedHandleScroll);
+        window.addEventListener("resize", debouncedApplyNavbarStyles);
+      
+        // Run once on page load to ensure styles are applied correctly
+        window.addEventListener("load", () => {
+          debouncedApplyNavbarStyles();
+          debouncedHandleScroll();
+        });
+  
+        function show(a, element) {
+          document.querySelector(`.group${a}`).classList.toggle("d-none");
+  
+          // Remove 'active' class from all nav links
+          document
+            .querySelectorAll(".megaHeding")
+            .forEach((link) => link.classList.remove("active"));
+          if (
+            !document.querySelector(`.group${a}`).classList.contains("d-none")
+          ) {
+            element.classList.add("active");
+          }
+        }
+      </script>
+
+    <script>
+
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+    </script>
+
+    <script>
+      //product gallery slider
+      // Primary slider.
+      var primarySlider = new Splide("#primary_slider", {
+        type: "fade",
+        heightRatio: 1,
+        pagination: false,
+        arrows: false,
+        cover: true,
+      });
+
+      // Thumbnails slider.
+      var thumbnailSlider = new Splide("#thumbnail_slider", {
+        rewind: true,
+        fixedWidth: 200,
+        fixedHeight: 200,
+        isNavigation: true,
+        gap: 10,
+        focus: "center",
+        pagination: false,
+        cover: true,
+        breakpoints: {
+          600: {
+            fixedWidth: 100,
+            fixedHeight: 100,
+          },
+        },
+      }).mount();
+
+      // sync the thumbnails slider as a target of primary slider.
+      primarySlider.sync(thumbnailSlider).mount();
+    </script>
+    <script defer src="../js/footer-posts.js"></script>
+  </body>
+</html>

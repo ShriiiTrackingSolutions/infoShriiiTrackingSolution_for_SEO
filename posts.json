@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": "seo-performance",
+      "title": "How to Optimize Your Website for Better SEO Performance",
+      "excerpt": "Learn proven strategies to improve your website's search engine rankings using data-driven methods that increase visibility and conversions for businesses",
+      "tags": ["seo", "web-development", "digital-marketing", "content-strategy"],
+      "category": "SEO",
+      "author": "STS",
+      "date": "2025-10-07",
+      "readTime": "5 min read",
+      "url": "/blog/SEO_PerformanceBlog.html",
+      "image": "../image/seoOptimization/SEO_OptimizationGuide.webp"
+    },
+    {
+      "id": "link-building-2025",
+      "title": "Link Building Strategies for 2025: Proven Techniques to Boost Your Domain Authority",
+      "excerpt": "Discover the most effective link building strategies for 2025. Learn proven techniques including broken link building, digital PR, guest posting, and creating linkable assets to boost your SEO rankings.",
+      "tags": ["link-building", "seo", "backlinks", "domain-authority", "digital-pr", "guest-posting"],
+      "category": "SEO",
+      "author": "Jane Smith",
+      "date": "2025-09-15",
+      "readTime": "12 min read",
+      "url": "/blog/LinkBuildingStrategies.html",
+      "image": "../image/seoOptimization/LinkBuilding.webp"
+    },
+    {
+      "id": "content-marketing-2025",
+      "title": "Content Marketing Strategy for 2025: Building a Framework That Drives Results",
+      "excerpt": "Discover proven content marketing strategies for 2025. Learn how to create compelling content, leverage AI tools, optimize for search everywhere, and build a framework that converts.",
+      "tags": ["content-marketing", "digital-marketing", "seo", "ai-content", "video-marketing", "content-strategy"],
+      "category": "Digital Marketing",
+      "author": "Rahul Sharma",
+      "date": "2025-10-09",
+      "readTime": "13 min read",
+      "url": "/blog/ContentMarketingStrategy2025.html",
+      "image": "../image/seoOptimization/ContentMarkating.webp"
+    },
+    {
+      "id": "mobile-seo-optimization-2025",
+      "title": "Mobile SEO Optimization: Complete Guide to Mobile-First Indexing in 2025",
+      "excerpt": "Master mobile SEO optimization with expert strategies for mobile-first indexing, page speed improvements, Core Web Vitals, and enhanced mobile user experience to boost rankings.",
+      "tags": ["mobile-seo", "seo", "mobile-optimization", "page-speed", "core-web-vitals", "mobile-first-indexing", "responsive-design"],
+      "category": "SEO",
+      "author": "Priya Patel",
+      "date": "2025-10-09",
+      "readTime": "14 min read",
+      "url": "/blog/MobileSEOOptimization2025.html",
+      "image": "../image/seoOptimization/MobileSEO_OptimizationGuide.webp"
+    },
+    {
+      "id": "ai-search-optimization-2025",
+      "title": "AI Search Optimization Guide 2025: How to Rank in Google's AI Mode & AI Overviews",
+      "excerpt": "Master AI search optimization with proven strategies for Google's AI Mode, AI Overviews, and generative search engines. Learn semantic optimization, structured data, and GEO techniques to dominate AI-powered search results.",
+      "tags": ["ai-search", "seo", "google-ai-mode", "ai-overviews", "geo", "structured-data", "semantic-seo", "rankbrain"],
+      "category": "SEO",
+      "author": "Amit Kumar",
+      "date": "2025-10-09",
+      "readTime": "15 min read",
+      "url": "/blog/AISearchOptimization2025.html",
+      "image": "../image/seoOptimization/AISearch.webp"
+    },
+    {
+      "id": "core-web-vitals-2025-guide",
+      "title": "Core Web Vitals 2025: New INP Metric, Updated Benchmarks & Optimization Checklist",
+      "excerpt": "Master Core Web Vitals 2025: INP replaces FID. Learn optimization techniques for LCP, INP, CLS to pass Google's performance standards.",
+      "tags": ["core-web-vitals", "seo", "page-speed", "inp-metric", "lcp-optimization", "cls", "web-performance", "google-ranking-factors"],
+      "category": "Technical SEO",
+      "author": "Neha Desai",
+      "date": "2025-10-09",
+      "readTime": "16 min read",
+      "url": "/blog/CoreWebVitals2025Guide.html",
+      "image": "../image/seoOptimization/CoreWebVitals.webp"
+    }
+  ]
+}

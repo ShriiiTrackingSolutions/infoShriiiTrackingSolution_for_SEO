@@ -1,0 +1,64 @@
+  <h2 class="therdH mt-5">Related products</h2>
+        <div class="row relatedProducts">
+          
+          <div class="col-lg-3 col-sm-6">
+            <div class="cardService">
+              <img src="../image/3.jpg" alt="" />
+              <a class="btnMedium" href=""
+                ><span
+                  >Read More
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+              <p>Responsive Website Design</p>
+              <a class="absoAnchor" href=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="cardService">
+              <img src="../image/7.jpg" alt="" />
+              <a class="btnMedium" href=""
+                ><span
+                  >Read More
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+              <p>Off-Page SEO Optimization</p>
+              <a class="absoAnchor" href=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="cardService">
+              <img src="../image/12.jpg" alt="" />
+              <a class="btnMedium" href=""
+                ><span
+                  >Read More
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+              <p>SEO Audits</p>
+              <a class="absoAnchor" href=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="cardService">
+              <img src="../image/8.jpg" alt="" />
+              <a class="btnMedium" href=""
+                ><span
+                  >Read More
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+              <p>Technical SEO</p>
+              <a class="absoAnchor" href=""></a>
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,603 @@
+:root {
+  --blue: #2a6fdd;
+  --Black: #1a1a1a;
+  --grey: #74787c;
+  --green: #17be74;
+  --lightGrey: #e8e8e8;
+  --BgBlack: #0b0301;
+  --Orange: #f94d1c;
+  --Bglight: #f7f5f4;
+  --BgDark: #0f0f0f;
+  --offwhite: #f3f3f3;
+}
+
+@media only screen and (min-width: 1920px) {}
+
+@media (max-width: 1399.98px) {
+    .awningsCanopiesCards .iconBox{
+        margin-right: 20px;
+      }
+
+      .awningsCanopiesCards .circleBtn{
+        margin-left: 15px;
+      }
+
+      .awningsCanopiesCards {
+        padding: 20px;
+    
+      }
+      .ShadeInStyle .fifthH {
+        font-size: 38px;
+    }
+    .ShadeInStyleCards {
+      padding: 40px;
+      padding-top: 100px;
+  }
+    
+ }
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+  .PopularProductsCards .textPart1 p {
+    font-size: 14px;
+}
+
+.ShadeInStyle .fifthH .mainText {
+  font-size: 14px;
+}
+.ShadeInStyleCards .counter-desc {
+ font-size: 14px;
+}
+
+
+.UShape .therdH {
+  font-size: 18px;
+}
+.postThubCard .fourthH {
+  font-size: 17px;
+}
+}
+
+
+
+@media (max-width: 1199.98px) { 
+    .awningsCanopies .container-fluid>.row{
+     row-gap: 30px;
+     justify-content: center;
+    }
+    .awningType .display-3{
+      font-size: 52px;
+    }
+    .InnovativeShading .container>.row{
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+    .InnovativeShadingImg img {
+        width: 100%;
+  
+    }
+    .InnovativeShadingImg img.ImgMrg{
+      margin-right: 0;
+    }
+
+   .circleAdd .clientCardCircle p.description{
+      font-size: 18px;
+    }
+.circleAdd .clientCardCircle{
+      width: 280px;
+      height: 280px;
+      padding: 40px;
+    }
+  
+ 
+.circleAdd .clientCardCircle p.description {
+     margin-top: 10px;
+     margin-bottom: 0;
+    }
+  
+    .defaultPadding {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    
+    .PopularProducts .container>.row{
+      row-gap: 24px;
+      justify-content: center;
+    }
+
+    .WhyChooseUs .container>.row{
+      row-gap: 85px;
+    }
+    .ShadeInStyle .fifthH {
+      font-size: 25px;
+  }
+  .ShadeInStyle .fifthH .mainText {
+    font-size: 15px;
+}
+.ShadeInStyleCards .counter-desc {
+  font-size: 14px;
+}
+
+.headerRight .btnMedium{
+  display: none;
+}
+.headerRight .Makeacall {
+  display: none !important;
+}
+
+.display-3 {
+  font-size: 60px;
+}
+.secH {
+  font-size: 36px;
+}
+
+.WhyChooseUs .imagPart2 {
+  padding-left: 12px;
+}
+.UShape .therdH {
+  font-size: 18px;
+}
+
+.textPart2 {
+  padding-left: 12px;
+}
+.whoWeAre .container>.row{
+ row-gap: 40px;
+}
+
+.AboutPage0.headingTitleWidget .container>div {
+  justify-content: center;
+  row-gap: 24px;
+  text-align: center;
+}
+
+.getInTouch .container>.row{
+  row-gap: 50px;
+}
+.servicePage0 .CircleIconWrap {
+  align-items: center;
+}
+.servicePage0 .styledPara + .row{
+  row-gap: 24px;
+}
+.blogPage0.NewsAndBlog .NewsCardBody {
+  padding: 34px 40px;
+}
+.blogDetailPage0 .display-3{
+  font-size: 42px;
+}
+
+.postThubCard {
+  max-width: 48%;
+  align-items: center;
+  margin-top: 40px;
+}
+.postThubCard .fourthH {
+  font-size: 17px;
+}
+.workingStepBox::after{
+  display: none;
+}
+.servicesColums .therdH{
+font-size: 22px;
+}
+
+.careersOptions .container>.row{
+  row-gap: 24px;
+}
+
+ }
+
+@media (max-width: 991.98px) { 
+  footer .row {
+    row-gap: 20px;
+  }
+  footer .about a:last-of-type {
+    margin-bottom: 0;
+  }
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  .list-group .list-group-item:last-child {
+    padding-bottom: 10px;
+}
+
+  .ShadeInStyle .container>.row,.NewsAndBlog .container>.row{
+    row-gap: 24px;
+    justify-content: center;
+  }
+  .headerRight .Makeacall {
+    display: flex !important;
+  }
+  .headerRight .btnOffcanvas{
+    display: none;
+  }
+.navbar-nav button{
+  display: none;
+} 
+
+.headingTitleWidget .container>div {
+  justify-content: center;
+  row-gap: 24px;
+  text-align: center;
+}
+
+.Banner .owl-nav{
+  display: none;
+}
+.copyrightSection .container>.row{
+  justify-content: center;
+  text-align: center;
+}
+.copyrightSection ul{
+  justify-content: center;
+}
+
+#testimonial1 .item>.therdH{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#testimonial1 {
+  padding: 60px;
+  padding-right: 120px;
+}
+.CommonForm.ContactForm {
+  padding: 45px;
+}
+.workingProcess .CircleIconWrap{
+  margin-top: 20px !important;
+}
+.workingProcessLine{
+  background: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-mega .dropdown-menu {
+  position: static;
+  width: 100%;
+}
+.dropdown-menu li {
+  width: 100%;
+}
+
+.megaHeding::after {
+  content: "\f107";
+  font-size: 14px;
+  margin-left: 4px;
+  line-height: 1;
+  font-weight: 900;
+  font-family: "Font Awesome 6 free";
+  border: none;
+}
+
+.megaHeding.active{
+  color: var(--blue);
+}
+
+.iconHedContent:nth-child(2)::after{
+  display: none;
+}
+.iconHedContent:nth-child(3)::after{
+  display: none;
+}
+.servicesColums .container>.row{
+  row-gap: 40px;
+}
+.whatOurClient  .container>.row{
+row-gap: 40px;
+}
+footer .container>.row{
+  gap: 0%;
+  row-gap: 40px;
+  justify-content: start !important;
+} 
+.Historywrap::after{
+  display: none;
+}
+.Historywrap{
+  row-gap: 50px;
+}
+
+.relatedProducts{
+  row-gap: 24px;
+}
+.productGallery .container>.row{
+  row-gap: 30px;
+}
+ }
+
+ @media screen and (max-width: 912px) {
+  footer ul li::before {
+    display: none;
+  }
+  footer .fourthH {
+    text-align: center;
+  }
+  footer ul a {
+    display: table;
+    margin: auto;
+    max-width: 298PX;
+    text-align: center;
+  }
+  footer .container>.row{
+    gap: 60px 40px;
+  } 
+  .footerLinks {
+    width: 100%;
+  }
+  .UShape .therdH {
+    font-size: 16px;
+  }
+  .clientCardCircle p.description{
+    font-size: 18px;
+  }
+ 
+  .mega-content .row{
+    flex-direction: column;
+}
+
+
+
+ }
+
+
+@media (max-width: 767.98px) {
+
+  .CustomersReviews .container>.row{
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .CustomersReviews .col {
+    max-width: 100%;
+}
+.circleAdd{
+  gap: unset;
+  justify-content: space-between;
+}
+
+.miniheader .mailpart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.mailpart a::after {
+display: none;
+}
+
+.display-3 {
+  font-size: 32px;
+}
+.secH {
+  font-size: 28px;
+}
+.therdH {
+  font-size: 22px;
+}
+.fourthH {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.defaultPadding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.updatedWithOurServices::before {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 0% 100%);
+}
+.Partners {
+padding-top: 0;
+}
+.WhyChooseUs .container.defaultPadding {
+  padding-top: 332px;
+}
+.miniheaderParrent{
+  display: none;
+}
+.UShape {
+ display: none;
+}
+
+.companyHistory .owl-nav{
+display: none;
+}
+
+#testimonial1 .item>.therdH{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#testimonial1 {
+  padding: 20px;
+  padding-right: 40px;
+}
+.authorWraper .fa-quote-left {
+  font-size: 34px;
+  color: var(--green);
+}
+
+.VideoPlayPause {
+  border: none;
+  padding: 4px;
+  height: 35px;
+  width: 35px;
+  color: var(--Orange);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.CommonForm.ContactForm {
+  padding: 35px;
+}
+#alertBox .alert {
+  width: 100%;
+  max-width: 400px;
+}
+.blogPage0.NewsAndBlog .NewsCard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.blogPage0.NewsAndBlog .ImgHoverZoom {
+  width: 100%;
+  aspect-ratio: 850 / 638;;
+}
+.blogPage0.NewsAndBlog .NewsCardBody {
+  padding: 30px 34px;
+  width: 100%;
+}
+.blogDetailPage0 .display-3{
+  font-size: 36px;
+}
+
+.postBottomLinks {
+  row-gap: 24px;
+}
+.adminCard {
+  flex-direction: column;
+}
+.authorDesc {
+  width: 100%;
+  text-align: center;
+  margin-top: 24px;
+}
+.postThubCard {
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  margin-top: 40px;
+}
+.commentCard {
+  flex-direction: column;
+  align-items: center;
+}
+.commentCard .commentDesc {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.awningType .listFlex {
+  gap: unset;
+}
+
+.awningType .listFlex ul {
+  flex-basis: 50%;
+}
+
+.footerPage {
+ justify-content: center;
+ text-align: center;
+}
+
+ }
+
+@media (max-width: 575.98px) {
+  footer {
+    text-align: center;
+  }
+  footer .col-lg-4 a {
+    margin: auto;
+  }
+  footer .col-lg-4>a {
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  footer .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .fIcons {
+    justify-content: center;
+  }
+  footer .row {
+    row-gap: 40px;
+  }
+
+  footer .form-check .form-check-input {
+    float: none;
+}
+.verticleCard{
+  flex-direction: column;
+}
+.VacrdText {
+  width: 100%;
+  padding-left: 0;
+  padding-top: 24px;
+  text-align: center;
+}
+.VacrdText p{
+  margin-bottom: 0;
+}
+
+.progressBarWrap {
+scale: 0.7;
+transform-origin: bottom right;
+}
+.mapSection iframe{
+  filter: grayscale(100);
+  height: 420px;
+  }
+
+  .blogDetailPage0 .display-3{
+    font-size: 32px;
+  }
+
+  .awningType .listFlex ul {
+    flex-basis: 100%;
+  }
+  .awningType .display-3 {
+    font-size: 40px;
+}
+
+ }
+
+@media only screen and (max-width: 479px) {
+.circleAdd .clientCardCircle{
+  display: none;
+}
+  .progressBarWrap {
+    scale: 0.5;
+    transform-origin: bottom right;
+    }
+
+    .contactCard {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      text-align: center;
+      position: relative;
+  }
+  .contactContent {
+    width: 100%;
+}
+
+.CommonForm.ContactForm {
+  padding: 12px;
+}
+.getInTouch .ContactForm{
+  padding: 24px;
+}
+
+.servicePage0.awningsCanopiesCards {
+  padding-bottom: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.CanopiesCardswrap{
+  row-gap: 24px;
+  padding: 24px;
+}
+.servicePage0.awningsCanopiesCards .iconBox{
+  margin-right: 0;
+}
+}
