@@ -7,6 +7,7 @@
     
     <!-- Primary Meta Tags -->
     <title>How to Optimize Your Website for Better SEO Performance | Your Blog</title>
+    <meta name="robots" content="index, follow">
     <meta name="title" content="How to Optimize Your Website for Better SEO Performance">
     <meta name="description" content="Learn proven strategies to improve your website's search engine rankings with these essential SEO optimization techniques and best practices.">
     <meta name="keywords" content="SEO, website optimization, search rankings, SEO tips">
@@ -769,13 +770,14 @@
     </footer>
     <section class="copyrightSection">
       <div class="container">
-        <p>Copyright @2024 All Rights Reserved By Shriii Tracking Solution.</p>
+        <p>Copyright @<span class="year"></span> All Rights Reserved By Shriii Tracking Solution.</p>
       </div>
     </section>
 
     <!-- footer section end  -->
     
     <!-- Bootstrap JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
@@ -993,6 +995,12 @@
     });
 </script>
 
+<script>
+// DOM Ready
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".year").textContent = new Date().getFullYear();
+});
+</script>
 
 <!-- Blog Manager Script -->
 <script src="../js/blog-manager.js"></script>

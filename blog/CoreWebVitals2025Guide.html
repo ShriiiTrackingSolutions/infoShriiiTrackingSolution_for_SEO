@@ -7,6 +7,7 @@
     
     <!-- Primary Meta Tags -->
     <title>Core Web Vitals 2025: New INP Metric, Updated Benchmarks & Optimization Checklist</title>
+    <meta name="robots" content="index, follow">
     <meta name="title" content="Core Web Vitals 2025: New INP Metric, Updated Benchmarks & Optimization Checklist">
     <meta name="description" content="Complete guide to Core Web Vitals 2025 with new INP metric replacing FID. Learn updated benchmarks, optimization techniques for LCP, INP, and CLS, plus actionable strategies to pass Google's performance standards and boost rankings.">
     <meta name="keywords" content="core web vitals, inp metric, lcp optimization, cls, page speed, web performance, google ranking factors, interaction to next paint, largest contentful paint, cumulative layout shift">
@@ -1268,13 +1269,14 @@
     </footer>
     <section class="copyrightSection">
       <div class="container">
-        <p>Copyright @2024 All Rights Reserved By Shriii Tracking Solution.</p>
+        <p>Copyright @<span class="year"></span> All Rights Reserved By Shriii Tracking Solution.</p>
       </div>
     </section>
 
     <!-- footer section end  -->
 
      <!-- Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
@@ -1369,7 +1371,7 @@
     
     // Check if the trimmed text is empty to prevent counting 1 word
     if (text.trim() === '') {
-        console.log("word count = 0");
+        // console.log("word count = 0");
         const readingTimeElement = document.getElementById('readingTime');
         if (readingTimeElement) {
             readingTimeElement.textContent = '0 min read';
@@ -1382,7 +1384,7 @@
     const wordsPerMinute = 200;
     const wordCount = words.length;
 
-    console.log("word count = " + wordCount);
+    // console.log("word count = " + wordCount);
     
     const readingTime = Math.ceil(wordCount / wordsPerMinute);
     
@@ -1492,6 +1494,12 @@
     });
 </script>
 
+<script>
+// DOM Ready
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".year").textContent = new Date().getFullYear();
+});
+</script>
 
 <!-- Blog Manager Script -->
 <script src="../js/blog-manager.js"></script>

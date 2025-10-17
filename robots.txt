@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://info.shriiitrackingsolution.in/sitemap.xml

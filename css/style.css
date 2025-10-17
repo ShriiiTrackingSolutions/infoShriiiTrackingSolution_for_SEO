@@ -1346,7 +1346,7 @@ footer .fIcons {
   margin-right: 4px;
 }
 
-footer > :nth-child(1) a.fa-brands {
+footer .fIcons a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

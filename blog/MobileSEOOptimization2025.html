@@ -7,6 +7,7 @@
     
     <!-- Primary Meta Tags -->
     <title>Mobile SEO Optimization: Complete Guide to Mobile-First Indexing in 2025</title>
+    <meta name="robots" content="index, follow">
     <meta name="title" content="Mobile SEO Optimization: Complete Guide to Mobile-First Indexing in 2025">
     <meta name="description" content="Master mobile SEO optimization in 2025 with expert strategies for mobile-first indexing. Learn how to improve page speed, responsive design, Core Web Vitals, and mobile user experience to boost rankings.">
     <meta name="keywords" content="mobile SEO, mobile-first indexing, mobile optimization, page speed, Core Web Vitals, responsive design, mobile user experience, mobile site speed, mobile rankings, mobile-friendly website">
@@ -1091,13 +1092,14 @@
     </footer>
     <section class="copyrightSection">
       <div class="container">
-        <p>Copyright @2024 All Rights Reserved By Shriii Tracking Solution.</p>
+        <p>Copyright @<span class="year"></span> All Rights Reserved By Shriii Tracking Solution.</p>
       </div>
     </section>
 
     <!-- footer section end  -->
 
    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
@@ -1315,6 +1317,12 @@
     });
 </script>
 
+<script>
+// DOM Ready
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".year").textContent = new Date().getFullYear();
+});
+</script>
 
 <!-- Blog Manager Script -->
 <script src="../js/blog-manager.js"></script>
